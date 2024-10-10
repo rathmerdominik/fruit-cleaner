@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/rathmerdominik/fruit-cleaner/issues/"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+updateJSONURL="https://raw.githubusercontent.com/rathmerdominik/fruit-cleaner/main/updates.json"
+displayURL="https://github.com/rathmerdominik/fruit-cleaner"
+logoFile="fruitcleaner.png"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.${mod_id}]]
+modId = "mineminenomi"
+mandatory = true
+versionRange = "[0.10.2,)"
+ordering = "AFTER"
+side = "SERVER"
